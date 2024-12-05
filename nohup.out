@@ -1,0 +1,7 @@
+CREATING RING
+Traceback (most recent call last):
+  File "/home/devoscientist/Downloads/chord_protocol-master/test_devoscientist.py", line 543, in <module>
+    node.start()
+  File "/home/devoscientist/Downloads/chord_protocol-master/test_devoscientist.py", line 184, in start
+    s.bind((self.nodeinfo.ip, self.nodeinfo.port))
+OSError: [Errno 98] Address already in use
